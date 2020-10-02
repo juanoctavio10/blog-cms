@@ -1,2 +1,2 @@
 # blog-cms
-Blog
+blog
