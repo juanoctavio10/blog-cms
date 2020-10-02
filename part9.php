@@ -9,13 +9,11 @@
     $married = true;
     $childrenNames = array("Alice","Bod");
 
-
     //Operators
     $fullName = $firstName . " " . $lastName;
     $dogYears = $age/7;
     $isAdult = $dogYears > 4;
     $isSettled = $isAdult and $married;
-
 
     //Functions
     function getFullName($firstName,$lastName){
@@ -47,6 +45,5 @@
     foreach($childrenNames as $childName){
         echo "<li>" . $childName . "</li>";
     }
-
 
 ?>
