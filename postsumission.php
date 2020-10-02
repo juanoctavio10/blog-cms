@@ -17,11 +17,13 @@
 ?>
 
 <main>
-    <form action="/post.html">
+    <form action="submit-post.php" method="POST" >
         <label for="fname">Title:</label><br>
         <input type="text" id="title" name="title" value=""><br>
         <label for="lname">Autor:</label><br>
         <input type="text" id="autor" name="autor" value=""><br><br>
+        <label for="lname">Date:</label><br>
+        <input type="date" id="date" name="date" value=""><br><br>
         <label for="lname">Content:</label><br>
         <textarea  id="content" name="content" value="" > </textarea> <br><br>
         <input type="submit" value="Submit">
