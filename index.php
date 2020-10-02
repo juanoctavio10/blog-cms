@@ -12,20 +12,17 @@
 </header>
  
 
-<nav>
-    <a href="/index.php">Index</a>
-    <a href="/post.php">Post</a>
-    <a href="/postsumission.php">PostSumission</a>
-</nav>
-
+<?php 
+    include 'nav.php';
+?>
 
 <main>
 <p> This will be the main content </p>
 </main>
 
-<footer>
-    <p>This will be the footer content<br>
-</footer>
+<?php 
+    include 'footer.php';
+?>
 
 </body>
 

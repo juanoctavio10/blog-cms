@@ -11,12 +11,9 @@
     <h1>This is Task 7 Post</h1>
 </header>
  
-
-<nav>
-    <a href="/index.php">Index</a>
-    <a href="/post.php">Post</a>
-    <a href="/postsumission.php">PostSumission</a>
-</nav>
+<?php 
+    include 'nav.php';
+?>
 
 <main>
      <div>Autor Example</div> 
@@ -30,9 +27,9 @@
     </div>
 </main>
 
-<footer>
-    <p>This will be the footer content<br>
-</footer>
+<?php 
+    include 'footer.php';
+?>
 
 </body>
 
