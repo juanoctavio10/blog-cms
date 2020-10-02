@@ -16,6 +16,7 @@
 
 <head> 
     <title>Post Page</title> 
+    <link rel="stylesheet" href="styles.css">
 </head> 
 
 <body>
