@@ -9,6 +9,12 @@ $(document).ready(function(){
         boton.style.display = 'none';
     });
     
+    var options= {
+        valueNames:['title']
+    };
+
+    new List('sortable-blog-list',options);
+
 
 
 });

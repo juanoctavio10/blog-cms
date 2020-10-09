@@ -1,5 +1,9 @@
 <nav>
-    <ul>
+
+    <div id="sortable-blog-list">
+    <input class="search" placeholder="Search" />
+    <button class="sort" data-sort = "title"> Sort </button>
+    <ul class="list" >
         <?php
             ini_set('display_errors',1);
             
@@ -25,7 +29,7 @@
 
             $postTitles = getPostTitlesFromDatabase();
             foreach($postTitles as $postTitle){
-                echo "<li> <a href='post.php?title=". $postTitle . "'>" . $postTitle . "</a> </li>";
+                echo "<li> <a href='post.php?title=". $postTitle . "' class='title' >" . $postTitle . "</a> </li>";
             }
         ?>
         
