@@ -29,3 +29,11 @@ if (isSeattled){
 childrenNames.forEach(function(childName){
     document.write("<li>"+ childName+"</li>")
 })
+
+function hello(){
+
+    alert("Hi there");
+    var boton=document.getElementById("botonhello");
+    boton.style.display = 'none';
+
+}

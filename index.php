@@ -22,6 +22,8 @@
 <main>
 <p> This will be the main content </p>
 </main>
+<button id="botonhello" onClick="hello();" name="button">Hello</button>
+
 
 <?php 
     include 'footer.php';
