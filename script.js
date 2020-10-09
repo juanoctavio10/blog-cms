@@ -17,5 +17,18 @@ $(document).ready(function(){
 
 
 
+    $.get("index.php").done(function(data){
+        alert("Data Loaded: "+data);
+    })
+
+    $.post("submit-post.php",{
+        title:"AJAX Post",
+        content:"AJAX Post Content",
+        author:"me",
+        data:"2019-01-01"
+    }).done(function(data){
+        alert("Data Loaded:"+ data);
+    })
+
 });
 
