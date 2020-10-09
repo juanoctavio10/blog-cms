@@ -1,11 +1,12 @@
 
 <html>
 
-<head> 
-    <title>HomePage</title> 
-    <link rel="stylesheet" href="styles.css">
-    <script  src="hello.js" >  </script>
-</head> 
+
+
+<?php 
+    include 'head.php';
+?>
+
 
 <body>
 
@@ -22,7 +23,7 @@
 <main>
 <p> This will be the main content </p>
 </main>
-<button id="botonhello" onClick="hello();" name="button">Hello</button>
+<button id="botonhello"  name="button">Hello</button>
 
 
 <?php 

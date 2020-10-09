@@ -1,9 +1,9 @@
 <html>
 
-<head> 
-    <title>PostSumission Page</title> 
-    <link rel="stylesheet" href="styles.css">
-</head> 
+
+<?php 
+    include 'head.php';
+?>
 
 <body>
 

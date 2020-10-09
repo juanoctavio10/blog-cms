@@ -23,10 +23,10 @@
 ?>
 <html>
 
-<head> 
-    <title>Post Page</title> 
-    <link rel="stylesheet" href="styles.css">
-</head> 
+
+<?php 
+    include 'head.php';
+?>
 
 <body>
 
