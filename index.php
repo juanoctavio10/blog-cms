@@ -4,6 +4,7 @@
 <head> 
     <title>HomePage</title> 
     <link rel="stylesheet" href="styles.css">
+    <script  src="hello.js" >  </script>
 </head> 
 
 <body>
