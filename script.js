@@ -1,3 +1,7 @@
+
+    var editor =  ace.edit("editor");
+    editor.session.setMode("ace/mode/html");
+
 $(document).ready(function(){
 
 
@@ -16,7 +20,7 @@ $(document).ready(function(){
     new List('sortable-blog-list',options);
 
 
-
+/*
     $.get("index.php").done(function(data){
         alert("Data Loaded: "+data);
     })
@@ -29,6 +33,26 @@ $(document).ready(function(){
     }).done(function(data){
         alert("Data Loaded:"+ data);
     })
+*/
+
+
+    $("#submit").click(function(){
+        var title = $("#title").val();
+        var author = $("#autor").val();
+        var date = $("#date").val();
+        var content = editor.getValue();
+
+        $.post("submit-post.php",{
+            title: title,
+            content: content,
+            author: author,
+            data:date
+        }).done(function(data){
+            window.location = "/blog-cms/index.php";
+        })
+
+    });
+
 
 });
 

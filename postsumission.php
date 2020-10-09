@@ -5,6 +5,7 @@
     include 'head.php';
 ?>
 
+
 <body>
 
 
@@ -26,7 +27,8 @@
         <input type="date" id="date" name="date" value=""><br><br>
         <label for="lname">Content:</label><br>
         <textarea  id="content" name="content" value="" > </textarea> <br><br>
-        <input type="submit" value="Submit">
+        <div id="editor"> </div>
+        <button id="submit" > Submit </input>
       </form>
 </main>
 
