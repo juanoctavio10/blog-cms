@@ -8,6 +8,6 @@
     include 'db_connect.php';
     $sql = "insert into posts(title,content,author,date) values ('" . $title . "','" . $content . "','" . $author . "','" . $date . "')";
     $result = mysqli_query($conn,$sql);
-    header("location: index.php");
+   // header("location: index.php");
 
 ?>
